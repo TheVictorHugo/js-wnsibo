@@ -79,3 +79,20 @@ gerarNumerosentre(1, 60).then(num => num * 10).then(numX10 => `O numero gerado f
 
 ////////////////////////////
 
+// const fs = require('fs')
+// const path = require('path')
+
+
+// function lerAquivo(caminho) {
+//   return new Promise(resolve =>{
+//     fs.readFile(caminho, function(_,conteudo){
+//       resolve(conteudo.toString())
+//     })
+//     console.log('Depois de ler')
+//   })
+// }
+
+// const caminho = path.join(__dirname,'dados.txt')
+// lerAquivo(caminho).then(console.log)
+
+
