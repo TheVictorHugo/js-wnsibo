@@ -95,4 +95,28 @@ gerarNumerosentre(1, 60).then(num => num * 10).then(numX10 => `O numero gerado f
 // const caminho = path.join(__dirname,'dados.txt')
 // lerAquivo(caminho).then(console.log)
 
+////////////////////////////// ECM2022
+// class InstPublicClass {
+//   InstPublicClass = 0;
+
+//   constructor(value){
+//     this.property = value;
+//   }
+
+//   const inst = new InstPublicClass('constrArg');
+//   assert.deepEqual(
+//     Reflec.ownKeys(inst),
+//     ['instancePublicField', 'property']
+//   );
+
+//   assert.equal(
+//     inst.instancePublicField, 0
+//   );
+
+//   assert.equal(
+//     inst.property, 'constArg'
+//   )
+// }
+
+
 
